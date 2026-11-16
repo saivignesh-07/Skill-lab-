@@ -1,0 +1,7 @@
+query_id,query,A_rank,B_rank,comment
+Q001,What was Henry IV known as before taking the throne?,3,3,Both miss: 'Henry IV' pulls both to Normans paragraphs; gold Huguenot paragraph is 3rd for both.
+Q007,In what century did the history of the steam engine begin?,5,1,"Same article (Steam_engine): B picks the exact paragraph, A ranks it 5th behind a sibling paragraph."
+Q014,What is the name of contemporary Mongolian currency?,2,1,A is pulled to Yuan_dynasty by 'Mongolian'; B finds the Genghis Khan paragraph that names the currency.
+Q025,Who is the producer of Doctor Who?,1,2,"A wins: B prefers another Doctor Who paragraph, the right one is 2nd."
+Q031,What is it called when there is an active attempt to overthrow a government or belief system?,3,1,"Abstract wording; B links 'overthrow a government' to the civil disobedience passage, A drifts to Islamism."
+Q036,What did Luther's answer to the antinomians reaffirms?,1,6,A wins clearly: B drops the gold paragraph to rank 6 among many Martin Luther paragraphs.

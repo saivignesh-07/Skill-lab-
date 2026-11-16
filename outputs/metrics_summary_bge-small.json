@@ -1,0 +1,13 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "recall_at_1": 0.84,
+  "recall_at_3": 0.92,
+  "recall_at_5": 0.96,
+  "recall_at_10": 0.99,
+  "mrr_at_10": 0.8864861111111111,
+  "ndcg_at_10": 0.9114019165464494,
+  "mean_rank": 1.85,
+  "total_inference_s": 50.36065796699995,
+  "avg_latency_ms": 71.94379709571422,
+  "avg_query_latency_ms": 11.693457554999895
+}

@@ -1,0 +1,13 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "recall_at_1": 0.795,
+  "recall_at_3": 0.94,
+  "recall_at_5": 0.965,
+  "recall_at_10": 0.975,
+  "mrr_at_10": 0.8614642857142857,
+  "ndcg_at_10": 0.8896675124833159,
+  "mean_rank": 1.81,
+  "total_inference_s": 20.74279757599993,
+  "avg_latency_ms": 29.632567965714188,
+  "avg_query_latency_ms": 3.8507175500001267
+}

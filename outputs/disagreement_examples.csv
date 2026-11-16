@@ -1,0 +1,39 @@
+query_id,query,relevant_passage_id,A_top1,A_rank,B_top1,B_rank,comment
+Q001,What was Henry IV known as before taking the throne?,P001,P046,3,P213,3,Both miss: 'Henry IV' pulls both to Normans paragraphs; gold Huguenot paragraph is 3rd for both.
+Q007,In what century did the history of the steam engine begin?,P007,P096,5,P007,1,"Same article (Steam_engine): B picks the exact paragraph, A ranks it 5th behind a sibling paragraph."
+Q014,What is the name of contemporary Mongolian currency?,P014,P181,2,P014,1,A is pulled to Yuan_dynasty by 'Mongolian'; B finds the Genghis Khan paragraph that names the currency.
+Q021,What educational study did Luther start to pursue and immediately  drop?,P021,P205,3,P021,1,
+Q025,Who is the producer of Doctor Who?,P025,P025,1,P285,2,"A wins: B prefers another Doctor Who paragraph, the right one is 2nd."
+Q031,What is it called when there is an active attempt to overthrow a government or belief system?,P031,P337,3,P031,1,"Abstract wording; B links 'overthrow a government' to the civil disobedience passage, A drifts to Islamism."
+Q032,What type of steam engine doesn't need valves to direct steam?,P032,P032,1,P271,4,
+Q036,What did Luther's answer to the antinomians reaffirms?,P036,P036,1,P487,6,A wins clearly: B drops the gold paragraph to rank 6 among many Martin Luther paragraphs.
+Q038,What did Luther try to avoid in setting up his church?,P038,P205,10,P360,4,
+Q044,The issues of what era did Tesla's article talk about?,P044,P048,2,P044,1,
+Q045,What percentage of prime-time TV viewership did the three big networks represent in 1980?,P045,P153,2,P045,1,
+Q046,What was the name of the leader ennobled by Henry III,P046,P001,2,P318,9,
+Q055,Theories on imperialism use which country as a model?,P055,P459,2,P055,1,
+Q056,When did Huguenots colonize in North America?,P056,P460,3,P056,1,
+Q074,What minimalist composer is also a university graduate?,P074,P059,3,P074,1,
+Q076,What natural phenomenon did Tesla create artificially? ,P076,P048,18,P399,20,
+Q084,Imperialism is confused with what other term?,P084,P084,1,P459,2,
+Q106,What is the jelly-like susbtance called?,P106,P106,1,P365,2,
+Q114,What book did Luther read in 1542?,P114,P205,3,P114,1,
+Q115,What did Luther seek to restore?,P115,P115,1,P152,4,
+Q127,Civil disobedients have chosen many different kinds of what type of behaviors?,P127,P127,1,P031,5,
+Q129,What is the city centre of Warsaw called in Polish?,P129,P341,2,P327,5,
+Q130,What party forms the Scottish Parliament?,P130,P431,2,P130,1,
+Q138,What is negatively correlated to the duration of economic growth?,P138,P316,2,P138,1,
+Q140,What entity began producing television series for ABC in 1962?,P140,P045,3,P140,1,
+Q144,What was the shape that Faget designed for the Apollo command module?,P144,P072,2,P144,1,
+Q146,What do David Castlles-Quintana and Vicente Royuela do for a living?,P146,P074,21,P277,59,
+Q148,Who became king in 1643?,P148,P148,1,P006,3,
+Q152,When did Luther return to Wittenberg?,P152,P370,3,P152,1,
+Q154,Whose thesis states that the solution to a problem is solvable with reasonable resources assuming it allows for a polynomial time algorithm?,P154,P456,3,P143,5,
+Q161,What is often misunderstood as the cause of matter rigidity?,P161,P229,2,P161,1,
+Q164,What is another way of learning that is not formal?,P164,P164,1,P272,2,
+Q171,What danger did the IPCC understate?,P171,P481,3,P394,3,
+Q172,During what decade did the campus start to look more modern?,P172,P236,2,P172,1,
+Q182,How many prime numbers exist?,P182,P182,1,P350,2,
+Q184,What is the largest independent library outside of London?,P184,P323,3,P184,1,
+Q196,What are Ctenophora commonly known as?,P196,P151,3,P196,1,
+Q198,What increases with the increase of income inequality?,P198,P146,7,P138,6,

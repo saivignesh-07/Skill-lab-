@@ -1,0 +1,9 @@
+query_id,query,expected_passage_id
+NQ1,Which metro line goes to Whitefield?,N01
+NQ2,What is the elephant parade at the end of Dasara called?,N02
+NQ3,How can I mark a model version as the production winner in MLflow?,N03
+NQ4,food made from finger millet,N04
+NQ5,When did India's moon lander reach the south pole?,N05
+NQ6,Why is November 1st a holiday in Karnataka?,N06
+NQ7,tool to ship an app with all its libraries,N07
+NQ8,Which empire ruled from Hampi?,N10

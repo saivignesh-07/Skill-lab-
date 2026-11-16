@@ -9,6 +9,7 @@ corpus by cosine similarity and record where the correct passage lands.
 
 Author: Sai Vignesh (1MS25CI127)
 """
+import gc
 import json
 import os
 import platform
@@ -51,6 +52,7 @@ MODELS = {
 os.makedirs("data", exist_ok=True)
 os.makedirs("outputs", exist_ok=True)
 random.seed(SEED); np.random.seed(SEED); torch.manual_seed(SEED)
+torch.set_num_threads(2)
 
 
 def build_eval_set():
@@ -155,6 +157,7 @@ def main():
             print(f"Evaluating {key}: {cfg['hf_model_id']}")
             model, m, preds, ranks = evaluate_model(cfg, evalq, corpus)
             run_id = log_model_run(key, cfg, model, m, preds, evalq)
+            del model; gc.collect()
             results[key] = {"cfg": cfg, "metrics": m, "preds": preds, "ranks": ranks, "run_id": run_id}
             print(json.dumps({k: round(v, 4) for k, v in m.items()}, indent=2))
 

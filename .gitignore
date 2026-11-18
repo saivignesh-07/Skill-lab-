@@ -6,3 +6,12 @@ venv*/
 *.pt
 *.safetensors
 hf_model/
+
+# Secrets, logs and editor/OS files
+.env
+*.env
+*.log
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
